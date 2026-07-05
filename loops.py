@@ -1,4 +1,9 @@
-i = 0
-while i < 3:
-    print("meow")
-    i = i + 1
+def main():
+    meow(3)
+
+
+def meow(n):
+    for _ in range(n):
+        print("meow")
+
+main()
